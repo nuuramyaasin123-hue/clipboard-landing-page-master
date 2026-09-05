@@ -241,4 +241,25 @@
   }
   
   
+   /*Supercharger Section*/
+  .section-supercharger .supercharger {
+    margin-top: 100px;
+    padding: 10px 20px;
+  
+    text-align: center;
+  }
+  
+  .supercharger h1 {
+    font-size: 32px;
+    font-weight: 600;
+  
+    color: hsl(210, 10%, 33%);
+  }
+  
+  .supercharger p {
+    margin-top: 10px;
+  
+    color: hsl(201, 11%, 66%);
+    line-height: 1.6;
+  }
   
