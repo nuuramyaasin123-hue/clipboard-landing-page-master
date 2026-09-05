@@ -263,3 +263,134 @@
     line-height: 1.6;
   }
   
+
+   /*Features Icons Section*/
+  
+  .section-icons {
+    max-width: 1200px;
+  
+    margin: 50px auto 0;
+    padding: 0 20px;
+  }
+  
+  .section-icons .icons {
+    display: grid;
+  
+    grid-template-columns: repeat(3, 1fr);
+  
+    gap: 50px;
+  
+    text-align: center;
+  }
+  
+  
+  /* Feature Content */
+  
+  .icons .title {
+    display: flex;
+  
+    flex-direction: column;
+  
+    align-items: center;
+  }
+  
+  .icons .title img {
+    width: 40px;
+    height: 40px;
+  
+    margin-bottom: 30px;
+  }
+  
+  .icons .title h2 {
+    margin-bottom: 12px;
+  
+    font-size: 22px;
+    font-weight: 600;
+  
+    color: hsl(210, 10%, 33%);
+  }
+  
+  .icons .title p {
+    font-size: 16px;
+  
+    line-height: 1.6;
+  
+    color: hsl(201, 11%, 66%);
+  }
+  
+  
+  /*Company Logos Section*/
+  
+  .section-logo {
+    width: 100%;
+  
+    margin-top: 100px;
+    padding: 40px 20px;
+  }
+  
+  .section-logo .logo {
+    display: flex;
+  
+    justify-content: space-between;
+    align-items: center;
+  
+    gap: 50px;
+  
+    max-width: 1100px;
+  
+    margin: auto;
+  }
+  
+  .section-logo .title {
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+  
+    flex: 1;
+  }
+  
+  .section-logo .title img {
+    width: 120px;
+    height: auto;
+  
+    object-fit: contain;
+  
+    opacity: 0.7;
+  
+    transition: 0.3s ease;
+  }
+  
+  .section-logo .title img:hover {
+    opacity: 1;
+  
+    transform: scale(1.08);
+  }
+  
+  
+  /*Last Download Section*/
+  
+  .section-last {
+    margin: 100px auto;
+  
+    padding: 10px 20px;
+  
+    text-align: center;
+  }
+  
+  .title-last h1 {
+    font-size: 32px;
+    font-weight: 600;
+  
+    color: hsl(210, 10%, 33%);
+  }
+  
+  .title-last p {
+    margin-top: 16px;
+  
+    color: hsl(201, 11%, 66%);
+  
+    line-height: 1.6;
+  }
+  
+  
