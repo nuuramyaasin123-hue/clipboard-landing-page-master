@@ -165,8 +165,8 @@
     line-height: 1.6;
   }
   
-  
-  /*About section */
+
+ /*About Section*/
   
   .section-about {
     display: flex;
@@ -181,3 +181,32 @@
     width: 50%;
     max-width: 700px;
   }
+  
+  
+  /* About Content */
+  .about {
+    flex: 1;
+    padding-right: 60px;
+  }
+  
+  .about .title {
+    margin-bottom: 45px;
+  }
+  
+  .title h2 {
+    margin-bottom: 8px;
+  
+    font-size: 22px;
+    font-weight: 600;
+  
+    color: hsl(210, 10%, 33%);
+  }
+  
+  .title p {
+    font-size: 16px;
+    line-height: 1.6;
+  
+    color: hsl(201, 11%, 66%);
+  }
+  
+  
