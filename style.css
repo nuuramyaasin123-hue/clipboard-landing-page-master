@@ -1,0 +1,135 @@
+/*Google Font*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+
+/*Global Styles*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-size: 18px;
+    color: hsl(210, 10%, 33%);
+    background-color: #ffffff;
+  }
+  
+  img {
+    max-width: 100%;
+    display: block;
+  }
+  
+  button {
+    font-family: inherit;
+  }
+  
+  
+  /*Header Section*/
+  
+  .container {
+    width: 100%;
+    max-width: 1440px;
+    min-height: 363px;
+  
+    margin: 0 auto;
+    padding: 40px 20px;
+  
+    text-align: center;
+  
+    background-image: url("/images/bg-header-desktop.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100% 363px;
+  }
+  
+  
+  /* header logo */
+  
+  .container .logo {
+    width: 60px;
+    margin: 30px auto;
+  }
+  
+  
+  /* header title */
+  
+  .header-title {
+    text-align: center;
+  }
+  
+  .header-title h1 {
+    font-size: 40px;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+  }
+  
+  .header-title p {
+    margin-top: 16px;
+  
+    color: hsl(201, 11%, 66%);
+    line-height: 1.6;
+  }
+  
+  
+  /*download buttons*/
+  
+  .btn-1,
+  .btn-2,
+  .buton-one,
+  .buton-two {
+    width: 170px;
+    height: 50px;
+  
+    margin-top: 30px;
+  
+    border: none;
+    border-radius: 25px;
+  
+    color: #ffffff;
+  
+    font-size: 16px;
+    font-weight: 600;
+  
+    cursor: pointer;
+  
+    transition: 0.3s ease;
+  }
+  
+  
+  /* green button */
+  
+  .btn-1,
+  .buton-one {
+    background-color: hsl(171, 66%, 44%);
+  
+    box-shadow:
+      0 3px 8px hsla(171, 66%, 44%, 0.3);
+  }
+  
+  .btn-1:hover,
+  .buton-one:hover {
+    opacity: 0.8;
+    transform: translateY(-2px);
+  }
+  
+  
+  /* blue button */
+  
+  .btn-2,
+  .buton-two {
+    background-color: hsl(233, 100%, 69%);
+  
+    box-shadow:
+      0 3px 8px hsla(233, 100%, 69%, 0.3);
+  }
+  
+  .btn-2:hover,
+  .buton-two:hover {
+    opacity: 0.8;
+    transform: translateY(-2px);
+  }
+  
