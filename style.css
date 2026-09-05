@@ -394,3 +394,430 @@
   }
   
   
+/*Footer Section */
+  
+  .footer {
+    width: 100%;
+    min-height: 180px;
+  
+    padding: 40px 10%;
+  
+    background-color: #f5f6f8;
+  
+    display: flex;
+  
+    align-items: center;
+  
+    justify-content: space-between;
+  
+    gap: 40px;
+  }
+  
+  
+  /* Footer Logo */
+  
+  .footer-log img {
+    width: 55px;
+  }
+  
+  
+  /* Footer Links */
+  
+  .footer-links {
+    display: flex;
+  
+    align-items: center;
+  
+    gap: 60px;
+  
+    flex: 1;
+  }
+  
+  .footer-column {
+    display: flex;
+  
+    flex-direction: column;
+  
+    gap: 15px;
+  }
+  
+  .footer-column a {
+    text-decoration: none;
+  
+    color: hsl(201, 11%, 45%);
+  
+    font-size: 16px;
+  
+    transition: 0.3s ease;
+  }
+  
+  .footer-column a:hover {
+    color: hsl(171, 66%, 44%);
+  }
+  
+  
+  /*Social Media*/
+  
+  .social {
+    display: flex;
+  
+    align-items: center;
+  
+    gap: 20px;
+  
+    margin-left: auto;
+  }
+  
+  .social a {
+    display: flex;
+  
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .social img {
+    width: 20px;
+    height: 20px;
+  
+    transition: 0.3s ease;
+  }
+  
+  .social img:hover {
+    transform: scale(1.15);
+  }
+  
+  
+  /*Attribution */
+  
+  .attribution {
+    text-align: center;
+  }
+  
+  .attribution p {
+    margin: 8px 0;
+  
+    font-size: 12px;
+  }
+  
+  .attribution a {
+    color: hsl(171, 66%, 44%);
+  
+    text-decoration: none;
+  }
+  
+  .attribution a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  /*Tablet Responsive
+     900px*/
+  
+  @media (max-width: 900px) {
+  
+    /* About Section */
+  
+    .section-about {
+      gap: 40px;
+    }
+  
+    .about {
+      padding-right: 20px;
+    }
+  
+  
+    /* Company Logos */
+  
+    .section-logo .logo {
+      gap: 25px;
+    }
+  
+    .section-logo .title img {
+      width: 100px;
+    }
+  
+  
+    /* Footer */
+  
+    .footer {
+      padding: 40px 5%;
+  
+      gap: 25px;
+    }
+  
+    .footer-links {
+      gap: 30px;
+    }
+  
+  }
+  
+  
+  /* Mobile Responsive 768px*/
+  
+  @media (max-width: 768px) {
+  
+    /*Mobile Header*/
+  
+    .container {
+      min-height: 363px;
+  
+      margin-top: 0;
+  
+      padding: 30px 20px;
+  
+      background-image: url("/images/bg-header-mobile.png");
+  
+      background-repeat: no-repeat;
+  
+      background-position: top center;
+  
+      background-size: 100% 363px;
+    }
+  
+  
+    /* Mobile Logo */
+  
+    .container .logo {
+      width: 55px;
+  
+      margin: 25px auto;
+    }
+  
+  
+    /* Mobile Header Title */
+  
+    .header-title h1 {
+      font-size: 32px;
+    }
+  
+    .header-title p {
+      font-size: 17px;
+    }
+  
+  
+    /* Mobile Buttons */
+  
+    .btn-1,
+    .btn-2,
+    .buton-one,
+    .buton-two {
+      display: block;
+  
+      width: 100%;
+      max-width: 320px;
+  
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .btn-2,
+    .buton-two {
+      margin-top: 15px;
+    }
+  
+  
+    /*Mobile Intro */
+  
+    .section-Intro {
+      margin-top: 90px;
+    }
+  
+    .Intro h1 {
+      font-size: 28px;
+    }
+  
+    .Intro p {
+      font-size: 16px;
+    }
+  
+  
+    /*Mobile About */
+  
+    .section-about {
+      flex-direction: column;
+  
+      gap: 50px;
+  
+      margin-top: 60px;
+  
+      padding: 0 25px;
+    }
+  
+    .section-about .images {
+      width: 100%;
+    }
+  
+    .about {
+      width: 100%;
+  
+      padding-right: 0;
+  
+      text-align: center;
+    }
+  
+    .about .title {
+      margin-bottom: 40px;
+    }
+  
+    .title h2 {
+      font-size: 20px;
+    }
+  
+    .title p {
+      font-size: 16px;
+    }
+  
+  
+    /*Mobile Computer*/
+  
+    .section-computer .computer {
+      margin-top: 80px;
+    }
+  
+    .computer h1 {
+      font-size: 28px;
+    }
+  
+    .computer p {
+      font-size: 16px;
+    }
+  
+    .computer img {
+      margin-top: 50px;
+    }
+  
+  
+    /*Mobile Supercharger */
+  
+    .section-supercharger .supercharger {
+      margin-top: 80px;
+    }
+  
+    .supercharger h1 {
+      font-size: 28px;
+    }
+  
+  
+    /* =========================
+       Mobile Features
+    ========================== */
+  
+    .section-icons {
+      margin-top: 50px;
+    }
+  
+    .section-icons .icons {
+      grid-template-columns: 1fr;
+  
+      gap: 60px;
+    }
+  
+  
+    /*Mobile Company Logos*/
+  
+    .section-logo {
+      margin-top: 70px;
+    }
+  
+    .section-logo .logo {
+      flex-direction: column;
+  
+      gap: 50px;
+    }
+  
+    .section-logo .title img {
+      width: 120px;
+    }
+  
+  
+    /*Mobile Last Section*/
+  
+    .section-last {
+      margin: 80px auto;
+    }
+  
+    .title-last h1 {
+      font-size: 28px;
+    }
+  
+    .title-last p {
+      font-size: 16px;
+    }
+  
+  
+    /*Mobile Footer */
+  
+    .footer {
+      flex-direction: column;
+  
+      justify-content: center;
+  
+      text-align: center;
+  
+      padding: 50px 20px;
+    }
+  
+    .footer-log {
+      margin-bottom: 20px;
+    }
+  
+    .footer-links {
+      flex-direction: column;
+  
+      gap: 30px;
+    }
+  
+    .footer-column {
+      align-items: center;
+    }
+  
+    .social {
+      margin-left: 0;
+  
+      margin-top: 10px;
+    }
+  
+    .attribution {
+      margin-top: 20px;
+    }
+  
+  }
+  
+  
+  /*Small Mobile
+     320px - 375px */
+  
+  @media (max-width: 375px) {
+  
+    /* Header */
+  
+    .header-title h1 {
+      font-size: 28px;
+    }
+  
+    .header-title p {
+      font-size: 16px;
+    }
+  
+  
+    /* Intro */
+  
+    .Intro h1 {
+      font-size: 26px;
+    }
+  
+    /* Other Headings */
+  
+    .computer h1,
+    .supercharger h1,
+    .title-last h1 {
+      font-size: 26px;
+    }
+  
+    /* About */
+  
+    .section-about {
+      padding: 0 20px;
+    }
+  
+  }
