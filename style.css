@@ -133,3 +133,51 @@
     transform: translateY(-2px);
   }
   
+   /*main section*/
+  
+  .main {
+    width: 100%;
+  }
+  
+  
+  /*Intro Section*/
+  
+  .section-Intro {
+    margin-top: 120px;
+    padding: 10px 20px;
+  }
+  
+  .section-Intro .Intro {
+    text-align: center;
+  }
+  
+  .Intro h1 {
+    font-size: 32px;
+    font-weight: 600;
+  
+    color: hsl(210, 10%, 33%);
+  }
+  
+  .Intro p {
+    margin-top: 16px;
+  
+    color: hsl(201, 11%, 66%);
+    line-height: 1.6;
+  }
+  
+  
+  /*About section */
+  
+  .section-about {
+    display: flex;
+    align-items: center;
+  
+    gap: 100px;
+  
+    margin-top: 80px;
+  }
+  
+  .section-about .images {
+    width: 50%;
+    max-width: 700px;
+  }
